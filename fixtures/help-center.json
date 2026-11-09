@@ -1,0 +1,106 @@
+{
+  "categories": [
+    {
+      "id": 10,
+      "name": "Getting started",
+      "description": "Set yourself up",
+      "html_url": "https://example.zendesk.com/hc/en-us/categories/10-Getting-started",
+      "position": 0,
+      "locale": "en-us"
+    },
+    {
+      "id": 20,
+      "name": "Billing",
+      "description": "",
+      "html_url": "https://example.zendesk.com/hc/en-us/categories/20-Billing",
+      "position": 1,
+      "locale": "en-us"
+    }
+  ],
+  "sections": [
+    {
+      "id": 100,
+      "name": "Basics",
+      "description": "First steps",
+      "html_url": "https://example.zendesk.com/hc/en-us/sections/100-Basics",
+      "category_id": 10,
+      "parent_section_id": null,
+      "position": 0
+    },
+    {
+      "id": 200,
+      "name": "Invoices",
+      "description": null,
+      "html_url": "https://example.zendesk.com/hc/en-us/sections/200-Invoices",
+      "category_id": 20,
+      "parent_section_id": null,
+      "position": 1
+    },
+    {
+      "id": 101,
+      "name": "Advanced",
+      "description": "After the basics",
+      "html_url": "https://example.zendesk.com/hc/en-us/sections/101-Advanced",
+      "category_id": 10,
+      "parent_section_id": 100,
+      "position": 2
+    },
+    {
+      "id": 300,
+      "name": "Other",
+      "description": "Missing category",
+      "html_url": "https://example.zendesk.com/hc/en-us/sections/300-Other",
+      "category_id": 99,
+      "parent_section_id": null,
+      "position": 3
+    }
+  ],
+  "articles": [
+    {
+      "id": 1000,
+      "title": "Welcome",
+      "body": "<p>Hello</p><img src=\"https://example.zendesk.com/hc/article_attachments/1/pic.png\" alt=\"Diagram\">",
+      "draft": false,
+      "html_url": "https://example.zendesk.com/hc/en-us/articles/1000-Welcome",
+      "section_id": 100,
+      "position": 0,
+      "locale": "en-us"
+    },
+    {
+      "id": 1001,
+      "title": "Coming soon",
+      "body": "<h2>Soon</h2>",
+      "draft": true,
+      "html_url": "https://example.zendesk.com/hc/en-us/articles/1001-Coming-soon",
+      "section_id": 101,
+      "position": 1
+    },
+    {
+      "id": 1002,
+      "title": "Empty body",
+      "body": "   ",
+      "draft": false,
+      "html_url": "https://example.zendesk.com/hc/en-us/articles/1002-Empty-body",
+      "section_id": 200,
+      "position": 2
+    },
+    {
+      "id": 1003,
+      "title": "Lost",
+      "body": "<p>Nowhere</p>",
+      "draft": false,
+      "html_url": "https://example.zendesk.com/hc/en-us/articles/1003-Lost",
+      "section_id": 300,
+      "position": 3
+    },
+    {
+      "id": 1004,
+      "title": "Ungrouped",
+      "body": "<p>No section</p>",
+      "draft": false,
+      "html_url": "https://example.zendesk.com/hc/en-us/articles/1004-Ungrouped",
+      "section_id": null,
+      "position": 4
+    }
+  ]
+}

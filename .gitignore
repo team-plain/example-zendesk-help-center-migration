@@ -3,4 +3,5 @@ dist/
 .env
 .env.*
 *.log
-zendesk-plain-map.json
+zendesk-plain-mapping.json
+*-mapping.json
