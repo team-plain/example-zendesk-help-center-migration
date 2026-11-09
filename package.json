@@ -1,0 +1,22 @@
+{
+  "name": "zendesk-to-plain-help-center",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Migrate a Zendesk Help Center into a Plain help center.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dry-run": "tsx src/index.ts --dry-run",
+    "typecheck": "tsc --noEmit",
+    "verify": "tsx src/verify.ts",
+    "check": "tsc --noEmit && tsx src/verify.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
